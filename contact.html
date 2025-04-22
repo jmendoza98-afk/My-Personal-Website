@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css"/>
+    <script defer src="javascript.js"></script>
+    <title>My Personal Website</title>
+</head>
+<body>
+    <nav>  
+        <div id="logo">
+            <h1>Jonathan Mendoza</h1>
+        </div>
+        <div id="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="personal.html">Personal Projects</a>
+            <a class="active" href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+    <main>
+        <h1 id="contact-header">Contact Me For More Info</h1>
+        <form action="./submission.html" id="form">
+            <div>
+                <label for="name">Name:</label><br />
+                <input id="name" type="text" name="name"/>
+            </div>
+            <div>
+                <label for="email">Email:</label><br />
+                <input id="email" type="email" name="email" />
+            </div>
+            <div>
+                <label for="message">Message For Me:</label><br />
+                <textarea id="message" name="message" rows="7" cols="50"></textarea>
+            </div>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>
